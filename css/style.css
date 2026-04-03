@@ -305,28 +305,26 @@ button {
   align-items: center;
 }
 
-/* Badge */
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  border-radius: 100px;
-  border: 1px solid var(--border);
-  background: rgba(123, 47, 255, 0.06);
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  letter-spacing: 0.04em;
+/* Hero logo block */
+.hero-logo-block {
+  text-align: center;
   margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(123, 47, 255, 0.15);
 }
 
-.hero-badge-star {
-  background: var(--gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-size: 0.7rem;
+.hero-logo-block img {
+  width: 220px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.hero-logo-block .hero-logo-tag {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #7a8ab0;
+  text-transform: uppercase;
 }
 
 /* Title */
@@ -935,10 +933,6 @@ button {
 
   .hero-title {
     font-size: 1.7rem;
-  }
-
-  .hero-badge {
-    font-size: 0.72rem;
   }
 
   .hero-actions {
