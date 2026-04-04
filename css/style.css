@@ -626,6 +626,12 @@ button {
   border: 1px solid rgba(254, 188, 46, 0.2);
 }
 
+.project-status--live {
+  color: #30d158;
+  background: rgba(48, 209, 88, 0.08);
+  border: 1px solid rgba(48, 209, 88, 0.2);
+}
+
 .project-title {
   font-family: var(--font-display);
   font-size: 1.15rem;
